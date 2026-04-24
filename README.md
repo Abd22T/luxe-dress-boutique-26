@@ -47,11 +47,19 @@ This project is a boutique shopping website template with product categories, de
 - `backend/` — backend/API placeholder folder
 - `dashboard/` — dashboard/admin UI placeholder folder
 
+## Backend
+
+The `backend/` folder is reserved for server-side logic, APIs, and database integrations. Currently a placeholder — add your API endpoints, authentication, and data models here when building the backend.
+
+## Dashboard
+
+The `dashboard/` folder is reserved for the admin interface. Currently a placeholder — add admin panels, analytics, and management tools here when building the dashboard.
+
 ## Screenshots
 
 - [homepage]
 ![alt text](image.png)
 - [category page]
-![alt text](image-1.png)
+![alt text](frontend/src/assets/image-1.png)
 - [product details page]
-![alt text](image-2.png)
+![alt text](frontend/src/assets/image-2.png)

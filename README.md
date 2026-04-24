@@ -4,7 +4,7 @@ A modern e-commerce storefront built with React, TypeScript, Vite, Tailwind CSS,
 
 ## Summary
 
-This project is a boutique shopping website template with product categories, detail pages, responsive layout, and a polished UI shell. The app is structured using React components under `src/components`, route configuration under `src/routes` and `src/router.tsx`, and styling via Tailwind CSS.
+This project is a boutique shopping website template with product categories, detail pages, responsive layout, and a polished UI shell. The app is now organized into separate folders for the frontend, backend, and dashboard. The frontend source lives under `frontend/src`, with routes under `frontend/src/routes` and router setup in `frontend/src/router.tsx`.
 
 ## What was built
 
@@ -39,11 +39,13 @@ This project is a boutique shopping website template with product categories, de
 
 ## Project structure
 
-- `src/` — main source code
-- `src/router.tsx` — router setup and app entry logic
-- `src/routes/` — route definitions and page components
-- `src/components/` — UI and layout components
-- `src/styles.css` — main global styles
+- `frontend/` — frontend application files
+- `frontend/src/` — main frontend source code
+- `frontend/src/router.tsx` — router setup and app entry logic
+- `frontend/src/routes/` — route definitions and page components
+- `frontend/src/components/` — UI and layout components
+- `backend/` — backend/API placeholder folder
+- `dashboard/` — dashboard/admin UI placeholder folder
 
 ## Screenshots
 
@@ -53,7 +55,3 @@ This project is a boutique shopping website template with product categories, de
 ![alt text](image-1.png)
 - [product details page]
 ![alt text](image-2.png)
-
-## Notes
-
-Add screenshot images later and replace the placeholder text above with actual image links or embedded Markdown image tags.
